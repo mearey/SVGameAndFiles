@@ -1,0 +1,203 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+
+
+
+// Inherit the parent event
+event_inherited();
+// (protrait, message, characterobject, leaving?, display name, expression)
+//  Scum Arc Script
+//  Scene 2: SQQ’s bedroom (inside SQQ’s fun house)
+dialog.add(pointer_null, "Shidi? Can you hear me?", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(pointer_null, "Uugh...", SYObject, false, "Shen Yuan", "neutral")
+dialog.add(pointer_null, "Shidi, you're finally awake. Are you feeling alright?", YQYObject, false, "Yue Qingyuan", "happy")
+//  Internal: Shidi? His robes too… Did I transmigrate?
+dialog.add(pointer_null, "I'm feeling fine... where is this?", pointer_null, false, "Shen Yuan", "neutral")
+dialog.add(pointer_null, "Are you sure you're okay? We are in your room inside Qing Jing Peak.", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(pointer_null, "Internal: ...Qing Jing Peak?", SYObject, false, "Shen Yuan", "neutral")
+dialog.add(pointer_null, "Why was I asleep for so long?", SYObject, false, "Shen Yuan", "neutral")
+dialog.add(pointer_null, "I'm not sure, how did you suddenly get a high fever when you were in perfect health?", YQYObject, false, "Yue Qingyuan", "concerned")
+//  Shidi, you shouldn't be worried about the upcoming Immortal Alliance Conference.
+dialog.add(pointer_null, "With Cang Qiong Mountain Sect's renown and strength, you shouldn't worry about anyone questioning us.", pointer_null, false, "Yue Qingyuan", "concerned")
+dialog.add(pointer_null, "Internal: Oh no... I got a bad feeling about this.", SYObject, false, "Shen Yuan", "neutral")
+dialog.add(pointer_null, "Qingqiu-shidi, don't be too anxious. You will be fine for the Immortal Alliance Conference.", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(SystemPortrait, "Role bound: Luo Binghe's master, Cang Qiong Mountain Sect's Qing Jing Peak.", pointer_null, false, "System", "neutral")
+dialog.add(SystemPortrait, "Peak Lord: Shen Qingqiu. Weapon: the sword Xiu Ya. Starting B-points: 100.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Internal: Fuck. What the fuck is going on. I transmigrated into Airplane Shooting Towards the Sky's shitty 'Proud Immortal Demon Way'!?", pointer_null, false, "Shen Qingqiu?", "neutral")
+dialog.add(SQQPortrait, "Fucking bullshit. How are you even speaking to me? Did you plagiarise Airplane's world setup?", pointer_null, false, "Shen Qingqiu?", "neutral")
+dialog.add(SystemPortrait, "You are bound to the account: Shen Qingqiu.", pointer_null, false, "System", "neutral")
+dialog.add(SystemPortrait, "As the plot progresses, you will gain or lose B-points. A punishment will be executed if the value of your B-point reaches 0.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Internal: Oh fuck. I'm talking to Yue Qingyuan, the very person Shen Qingqiu killed with tens of thousands of arrows! How could a victim show such concern to his murderer?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Wait, Yue Qingyuan is in perfect health. Phew, the story hasn't progressed that far.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Qingqiu-shidi?", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(SQQPortrait, "Internal: Why am I so concerned for Yue Qingyuan when Shen Qingqiu has the worst death! And I am Shen Qingqiu now!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "I don't want to be cut up and lose all of my limbs!! I don't want to become a human stick!!!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "I need to avoid this at all costs!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "Warning! Warning! Warning!", pointer_null, false, "System", "neutral")
+dialog.add(SystemPortrait, "Your plan was qualified as an act of violation. The OOC feature is frozen and acting out of the original character will deduct B-points.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Argh!", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(pointer_null, "Don't push yourself, shidi. Does your head still hurt?", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(pointer_null, "Here, take this medicine.", YQYObject, false, "Yue Qingyuan", "concerned")
+//  Medicine obtained.
+dialog.add(SQQPortrait, "Internal: I already replaced Shen Qingqiu and you still care about being out of character?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "What happens when I lose all of my B-points?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "You will be sent back to your original world.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Ah...", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(SQQPortrait, "Internal: So basically death because Shen Yuan's body is dead. So I just need to ignore the protagonist who kills me then!", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(SQQPortrait, "Where is Luo Binghe?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Shidi, don't be upset. You shouldn't punish him anymore, he's already working hard for your sake.", YQYObject, false, "Yue Qingyuan", "neutral")
+dialog.add(SQQPortrait, "...Where is he?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "He is in the shed like the other times you finished punishing him.", YQYObject, false, "Yue Qingyuan", "neutral")
+//  Realising the revelation of such surprising news made my vision blacken out of sheer shock.
+//  Fades to black.
+//  Scene 3: SQQ’s living room (inside SQQ’s fun house)
+dialog.add(SystemPortrait, "Some time later.", pointer_null, false, "THIS IS A MANUAL CHANGE", "neutral")
+//  Illustration
+dialog.add(SQQPortrait, "Internal: Why are you so jealous of Luo Binghe? You had everything you ever needed.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Skills and quantifications, renown reputation, no financial concerns, and even your youthful appearances as a cultivator. On top of that, you are Cang Qiong Mountain Secti's strategist!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "You had a good backstory with positive relations with your siblings, not even mentioning your family's rich past.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Then again, he was just one of the many villains made with such a cookie cutter approach in the Proud Immortal Demon Way.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "And not even Shen Qingqiu's looks can even compare to Luo Binghe's appearances.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "If only I could see how Luo Binghe is holding up in the woodshed...", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "OOC Warning! OOC Warning!", pointer_null, false, "System", "neutral")
+dialog.add(SystemPortrait, "Character: Shen Qingqiu would not be concerned with Protagonist: Luo Binge's wellbeing.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Fine. I can just get my head disciple to call him over.", pointer_null, false, "Shen Qingqiu", "annoyed")
+dialog.add(SQQPortrait, "Ming Fan!", pointer_null, false, "Shen Qingqiu", "annoyed")
+//  MFYoung enters.
+dialog.add(pointer_null, "This disciple is here. What does Shifu request?", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(SystemPortrait, "New character: Disciple of Qing Jing Peak, Ming Fan.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Internal: Truly as Luo Binghe's senior martial brother and Shen Qingqiu's proxy to blacken the protagonist, Ming Fan is really just cannon fodder.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Bring Binghe here.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Yes, Shifu.", MFYoungObject, true, "MFYoung", "confused")
+dialog.add(SQQPortrait, "Well, System, how do I increase my B points?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "One: Ensure the protagonist's satisfaction points. Two: Discover and finish hidden plot events.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Luo Binghe's satisfaction points?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "The main character's satisfaction points can impact the story's plot events.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "That doesn't explain anything at all! System can't you be more specific about the rules you're reinforcing onto me.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SystemPortrait, "The main character's satisfaction points can impact the story's plot events.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Well, if the System isn't going to elaborate any further, I should do something else that might actually get me somewhere.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "I should look around the room to be more familiar with my own place.", pointer_null, false, "Shen Qingqiu", "neutral")
+//  Investigation scene
+//  (ill add more text once items and background is finalised so i know what sqq is reacting to)
+dialog.add(pointer_null, "Hurry up! Shizun is waiting for you.", MFYoungObject, false, "MFYoung", "offscreen")
+dialog.add(SQQPortrait, "Internal: They are already here!?", pointer_null, false, "Shen Qingqiu", "neutral")
+//  MFYoung and LBHYoung enter. Illustration
+dialog.add(SQQPortrait, "Internal: His noble yet stubborn nature is fitting for the protagonist of this world. Despite his beaten face, he's truly dazzling!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "How could we abuse someone like him so much? Only a scum villain would do such a thing.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Shizun, he is here.", MFYoungObject, false, "MFYoung", "pleased")
+//  Shizun.
+dialog.add(SystemPortrait, "New character: Protagonist disciple of Qing Jing Peak, Luo Binghe.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Internal: Ah! If he bows now when I beat him up so much that he's limping. Then one day, he will break my knees!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Don't kneel.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Internal: That's right, Yue Qingyuan gave me medicine earlier. Luo Binghe looks so beaten up that he might need it.", pointer_null, false, "Shen Qingqiu", "neutral")
+//  Poor Luo Binghe. If I give him the medicine, maybe he will give me mercy in the future.
+//  I shouldn’t give the medicine to Luo Binghe. I might need it later, who knows how dangerous this world can be.
+//  Medicine was given\
+dialog.add(SQQPortrait, "Internal: The original Shen Qingqiu would never act kind to Luo Binghe without some sort of selfish incentive. So to avoid the OOC trigger, I need to justify it in some way...", pointer_null, false, "Shen Qingqiu", "neutral")
+//  !
+dialog.add(SQQPortrait, "I got an idea.", pointer_null, false, "Shen Qingqiu", "lightblub")
+//  Medicine gifted to Luo Binghe.
+dialog.add(pointer_null, "Shizun, you're giving this medicine to me...?", LBHYoungObject, false, "LBHYoung", "pleased")
+dialog.add(SQQPortrait, "Your appearance is important to maintain Qing Jing Peak's reputation. I will not have people believing that my Qing Jing Peak tolerates abuse.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "This disciple will never forget this act of kindness. No action can ever repay this generosity.", LBHYoungObject, false, "LBHYoung", "pleased")
+dialog.add(pointer_null, "Shizun, this disciple will reflect upon his actions and will work even harder to avoid making the same mistake in the future.", LBHYoungObject, false, "LBHYoung", "pleased")
+dialog.add(SQQPortrait, "Internal: You didn't make any mistakes! The original Shen Qingqiu is at fault here.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "See to it that it doesn't happen again", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Internal: But even if Luo Binghe wasn't at fault, he is still the one out for revenge against Shen Qingqiu in the future!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Of course, Shizun.", LBHYoungObject, false, "LBHYoung", "pleased")
+dialog.add(SQQPortrait, "Remind me, Luo Binghe, of how long you've been training under me. How old are you now?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Of course, Shizun. This disciple is fourteen.", LBHYoungObject, false, "LBHYoung", "pleased")
+dialog.add(SQQPortrait, "Internal: Oh, he's already fourteen... That means, he already endured through countless abuse and 'incidents'...", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "I'm so dead.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Of course, of course. You both may go.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Thank you, Shizun.", MFYoungObject, false, "MFYoung", "confused")
+dialog.add(pointer_null, "Thank you, Shizun.", LBHYoungObject, false, "LBHYoung", "pleased")
+//  Medicine wasn’t given\
+dialog.add(pointer_null, "Shizun, this disciple apologises for his failure and mistakes. As a disciple of Cang Qiong Mountain Sect- no, as a disciple of Qing Jing Peak, I have failed his shizun.", LBHYoungObject, false, "LBHYoung", "neutral")
+//  This disciple understands the severity of his mistakes and will endeavor to never repeat them.
+dialog.add(SQQPortrait, "Internal: Aiya! No, no, no. Luo Binghe, don't you see. No matter how hard you try, the original Shen Qingqiu would keep moving the goalpost to continue your punishments.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "See to it that it doesn't happen again", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Internal: But even if Luo Binghe wasn't at fault, he is still the one out for revenge against Shen Qingqiu in the future!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Of course, Shizun.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(SQQPortrait, "Remind me, Luo Binghe, of how long you've been training under me. How old are you now?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "This disciple is fourteen.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(SQQPortrait, "Internal: Oh, he's already fourteen... That means, he already endured through countless abuse and 'incidents'...", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Internal: How many times did the original scum villain just dismissed Luo Binghe's apologies?", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "I'm so dead.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Of course, of course. You both may go.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Thank you, Shizun.", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "Thank you, Shizun.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(pointer_null, "Humph! It won't be long until you make shizun upset again.", MFYoungObject, true, "MFYoung", "offscreen")
+//  The paths converge
+dialog.add(SQQPortrait, "Internal: Oh no, I really need to remove the OOC function if I want to survive. Otherwise, it's impossible to affect Luo Binghe's satisfaction points in a way that benefits me..", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "But first, I should get familiar with my Qing Jing Peak first. It would be disastrous if I get caught being lost in my own home.", pointer_null, false, "Shen Qingqiu", "neutral")
+//  Changes location to Qing Jing Peak (outside).
+//  Scene 4.5: Qing Jing Peak (outside SQQ’s fun house)
+dialog.add(SQQPortrait, "Internal: Honestly, if I wasn't going to transmigrate as the protagonist, at least allow me to transmigrate as canon fodder!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Or at least BEFORE the original scum villain abuses Luo Binghe. Right now, even if I retire to some far away place, Luo Binghe can still find me and torture me out of revenge.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Airplane, you had a million words to improve your story. Maybe if you fill in the plot holes and pay off your setup, then I wouldn't be in this situation!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Ah, as a peak lord of second highest peak out of the twelve in Cang Qiong Mountain Sect, I'll be doomed if I can't fight. Forget Luo Binghe's revenge, I'll be dead before that!", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Let's see... There's at least the demon invasion of the sect and the Immortal Alliance Conference.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Time to test what abilities and skills I have.", pointer_null, false, "Shen Qingqiu", "neutral")
+//  Scene 5: Qing Jing Peak (outside SQQ’s fun house)
+//  (mini game sequence??)
+dialog.add(pointer_null, "A-Luo, A-Luo! Look at this ditch in the ground! Who do you think created such an impressive cut?", NYYYoungObject, false, "NYYYoung", "delighted")
+dialog.add(SystemPortrait, "New character: Disciple of Qing Jing Peak, Ning Yingying.", pointer_null, false, "System", "neutral")
+dialog.add(SQQPortrait, "Of course every xianxia stallion novel must have a protagonist where one of the wives is a cute martial younger sister.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "And yet, the original Shen Qingqiu dare set his sight on such an naive and innocent girl.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "What type of scumbag would prey upon his own disciples, it's truly unforgivable.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "A-Lou! Come on, I want to hear what you think.", NYYYoungObject, false, "NYYYoung", "delighted")
+dialog.add(pointer_null, "Among everyone on Qing Jing Peak, only Shizun is capable enough.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(SQQPortrait, "Bravo, Luo Binghe. The protagonist is quite knowledgeable.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Oh, then I suppose the lighting created it.", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(pointer_null, "(Panting.)", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(pointer_null, "A-Luo, please come play with me! It's super unfair how our martial brothers are always ordering you around like this.", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(pointer_null, "They could at least give you a better axe than this rusty old thing. Especially when the trees are big and tough like this!", NYYYoungObject, false, "NYYYoung", "upset")
+//  Humph! I ought to give them a piece of my mind. I bet if I tell Shizun about their bullying, they won’t bother you again.
+dialog.add(SQQPortrait, "No, no, no! Don't report back to me. There's nothing I can do. In fact, I'll end up making it worse for Luo Binghe.", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(pointer_null, "Please don't bother Shizun on my behalf. The martial brothers are only looking out for me and wish for me to improve.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(SQQPortrait, "How dazzling. Despite his struggles, young Luo Binghe is truly sweet. Truly fitting of a pre-blacken protagonist.", pointer_null, false, "Shen Qingqiu", "pained")
+//  Phew.
+dialog.add(pointer_null, "Aww, you just finished chopping and now you plan to cultivate? You work too much sometimes.", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(SQQPortrait, "His talent really shines considering when he has been using the fake cultivation manal that Ming Fan gave him when he first joined.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(SQQPortrait, "Instead of his techniques getting worse overtime, he figured out a path of his own. He's such an admirable student.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Xiao-shimei! Are you here?", MFYoungObject, false, "MFYoung", "offscreen")
+dialog.add(SQQPortrait, "Oh no.", pointer_null, false, "Shen Qingqiu", "neutral")
+dialog.add(pointer_null, "Xiao-shimei! Don't you know it's too dangerous to be here unprotected? Come with me, Shixiong have something to show you.", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "Shixiong.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(pointer_null, "I'm a disciple too. I don't have to be scared of dangerous beasts in the forest. Besides, I'm not alone, I have A-Luo with me.", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(pointer_null, "Tsk.", MFYoungObject, false, "MFYoung", "upset")
+//  Shixiong, what do you have to show me?
+//  Shimei, my family visited me the other day and gave me many trinkets.
+//  (MF’s jade ornament)
+dialog.add(pointer_null, "I think you would like this jade ornament in particular. It's of high quality and very pretty. I think you would appreciate it more than me, so you can have it.", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "Hmmm.", NYYYoungObject, false, "NYYYoung", "neutral")
+dialog.add(pointer_null, "Well? What do you think?", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "The colour of this jade is really ugly. A-Luo's is prettier. You can have it back.", NYYYoungObject, false, "NYYYoung", "neutral")
+//  Shijie!
+dialog.add(pointer_null, "Oh? Shidi has one too? It must be really impressive to get shimei's attention.", MFYoungObject, false, "MFYoung", "upset")
+dialog.add(pointer_null, "A-Luo's jade pendant is really special. He is really protective of it because it's his treasure. I haven't seen it either.", NYYYoungObject, false, "NYYYoung", "delighted")
+dialog.add(SQQPortrait, "Please stop, Ning Yingying! I know you're trying to see his pendant to be special to Luo Binghe. But please consider that you can't gain his trust like this!", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(SQQPortrait, "Luo Binghe treasures his jade pendant so much because it was from his late mother! His last reminder of humanity even when he becomes the demon emperor.", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(SQQPortrait, "Something as significant as that, of course he doesn't show it off to just anyone.", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(pointer_null, "Luo-shidi, how pretentious of you to not show Ning Yingying-shimei your special treasure. How are we able to trust you in a time of need, especially against strong enemies like demons.", MFYoungObject, false, "MFYoung", "upset")
+dialog.add(SQQPortrait, "What type of logic is that? What sort of mental gymnastics did you do to connect your sentences together?", pointer_null, false, "Shen Qingqiu", "pained")
+//  Shixiong! Stop it, I don’t need to see A-Luo’s pendant.
+//  Ah!
+//  Let's see what’s so special about your treasure now.
+//  (LBH’s jade ornament)
+dialog.add(pointer_null, "Hahahaha! I thought it was actually a precious treasure with you protecting it like some dog. But- Hahaha. It's just some fake scam! Here, Shimei, you should see for yourself.", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "Give it back.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(SQQPortrait, "It's so painful watching this scene play out while being unable to help Luo Binghe out. I wish I could grab that jade pendant to give it back.", pointer_null, false, "Shen Qingqiu", "pained")
+dialog.add(SystemPortrait, "OOC warning! OOC warning!", pointer_null, false, "System", "neutral")
+//  Thank you. Now, shut up.
+dialog.add(pointer_null, "If you want it back so badly, you can have it. Because it's so cheap, I don't want dirty Shimei's hands with it.", MFYoungObject, false, "MFYoung", "pleased")
+dialog.add(pointer_null, "Huh? Then why do you still have it? Give it back!", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(pointer_null, "Give. It. Back.", LBHYoungObject, false, "LBHYoung", "neutral")
+dialog.add(pointer_null, "You dare to attack us...? Come on guys, let's show him how to respect seniority.", MFYoungObject, false, "MFYoung", "upset")
+dialog.add(pointer_null, "Shixiong, stop this bullying right this instant. Otherwise… I won't talk to you anymore.", NYYYoungObject, false, "NYYYoung", "upset")
+dialog.add(pointer_null, "Ah, it's okay Shimei. I'll tell the others to stop-", MFYoungObject, false, "MFYoung", "upset")
+dialog.add(pointer_null, "OWW!! Y-you punched me!!", MFYoungObject, false, "MFYoung", "upset")
+//  Hahahaha! Your face was so funny- hahaha!
+//  I’ll show you what happens when you cross me!
