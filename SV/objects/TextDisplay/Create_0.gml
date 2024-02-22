@@ -28,3 +28,24 @@ autoplayTimer = 50;
 characterCount = 0
 
 alarm[0] = interval
+
+
+function advanceDialogue() {
+	//advance to next dialogue
+	showing_dialog = false;
+	//make character leave if theyare leaving
+	if (current_dialog.leave == true) {
+		var char = instance_find(current_dialog.character,0)
+		if (char.image_xscale == -1) {
+			global.flippedChar = false
+		}
+		instance_destroy(char)
+	} else {
+		//discover character here
+		for (var i = 0; i < array_length(global.characterList); ++i) {
+			if global.characterList[i].name == current_dialog.name {
+				global.characterList[i].found = true
+			}
+		}
+	}
+}

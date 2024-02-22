@@ -4,8 +4,6 @@
 
 if (index < string_length(current_dialog.message)) {
 	
-	
-	
 	index++;
 	//play a sound here for text
 	

@@ -6,9 +6,11 @@ function Save() {
 	file_text_write_string(saveFile, "nextObjective: " + global.nextObjective+"\n")
 	file_text_write_string(saveFile, "inventory: " + json_stringify(global.inventory)+"\n")
 	//TODO ADD SAVING OF CURRENT LOCATION
+	file_text_write_string(saveFile, "location: " + json_stringify({})+"\n")
 	file_text_close(saveFile)
 }
 
 function Load() {
+	saveFile = file_text_open_write("Save")
 	
 }

@@ -40,9 +40,8 @@ if (!showing_dialog) {
 			}
 		}
 	}
-	
 } else if (!global.auto) {
-	if ((keyboard_check_released(key_next) or (mouse_check_button_released(mb_any) and mouse_y >= 800)) and (!keyboard_check_released(ord("P")))) {
+	if ((keyboard_check_released(key_next) or (mouse_check_button_released(mb_any) and mouse_y >= 800)) and (!keyboard_check_released(vk_escape))) {
 		if (index == string_length(current_dialog.message)) { 
 			//advance to next dialogue
 			if (!logs.visible) {
@@ -64,22 +63,3 @@ if (!showing_dialog) {
 	}
 }
 
-function advanceDialogue() {
-	//advance to next dialogue
-	showing_dialog = false;
-	//make character leave if theyare leaving
-	if (current_dialog.leave == true) {
-		var char = instance_find(current_dialog.character,0)
-		if (char.image_xscale == -1) {
-			global.flippedChar = false
-		}
-		instance_destroy(char)
-	} else {
-		//discover character here
-		for (var i = 0; i < array_length(global.characterList); ++i) {
-			if global.characterList[i].name == current_dialog.name {
-				global.characterList[i].found = true
-			}
-		}
-	}
-}

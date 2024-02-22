@@ -15,3 +15,5 @@ with (Slider) {
 		global.audioLevel = val/100
 	}
 }
+
+instance_destroy(SettingsObj)
