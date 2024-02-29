@@ -63,6 +63,7 @@
     {"name":"Inventory","order":3,"path":"objects/Inventory/Inventory.yy",},
     {"name":"LocationName","order":5,"path":"objects/LocationName/LocationName.yy",},
     {"name":"Settings","order":15,"path":"sprites/Settings/Settings.yy",},
+    {"name":"SystemFontEnlarged","order":5,"path":"fonts/SystemFontEnlarged/SystemFontEnlarged.yy",},
     {"name":"CharacterButton","order":11,"path":"objects/CharacterButton/CharacterButton.yy",},
     {"name":"InventoryButton","order":2,"path":"objects/InventoryButton/InventoryButton.yy",},
     {"name":"MainMenu","order":3,"path":"rooms/MainMenu/MainMenu.yy",},

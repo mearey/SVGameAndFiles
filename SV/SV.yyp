@@ -41,10 +41,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"F9Cy3b0bUAA6OIV.jfif","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"popbob144P.mp4","CopyToMask":-1,"filePath":"datafiles",},
-  ],
+  "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -92,6 +89,7 @@
     {"id":{"name":"Inventory","path":"objects/Inventory/Inventory.yy",},},
     {"id":{"name":"LocationName","path":"objects/LocationName/LocationName.yy",},},
     {"id":{"name":"Settings","path":"sprites/Settings/Settings.yy",},},
+    {"id":{"name":"SystemFontEnlarged","path":"fonts/SystemFontEnlarged/SystemFontEnlarged.yy",},},
     {"id":{"name":"CharacterButton","path":"objects/CharacterButton/CharacterButton.yy",},},
     {"id":{"name":"InventoryButton","path":"objects/InventoryButton/InventoryButton.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
