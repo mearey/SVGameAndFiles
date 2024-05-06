@@ -9,7 +9,7 @@ event_inherited();
 // (protrait, message, characterobject, leaving?, display name, expression)
 //  Scum Arc Script
 //  Scene 2: SQQ’s bedroom (inside SQQ’s fun house)
-dialog.add(pointer_null, "Shidi? Can you hear me?", YQYObject, false, "Yue Qingyuan", "concerned")
+dialog.add(pointer_null, "Shidi? Can you hear me  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so  was I asleep for so ?", YQYObject, false, "Yue Qingyuan", "concerned")
 dialog.add(pointer_null, "Uugh...", SYObject, false, "Shen Yuan", "neutral")
 dialog.add(pointer_null, "Shidi, you're finally awake. Are you feeling alright?", YQYObject, false, "Yue Qingyuan", "happy")
 //  Internal: Shidi? His robes too… Did I transmigrate?
