@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
 
-if (paused) {
-	draw_surface(paused_surf, 0, 0)
-	draw_set_alpha(0.75)
-	draw_set_color(c_black)
-	draw_rectangle(0,0,display_get_width(),display_get_height(),false)
-	draw_set_alpha(1)
-}
+draw_self()
+
+draw_text(mouse_x, mouse_y, "| " + string(mouse_x) + " | " +  string(mouse_y) + " |")

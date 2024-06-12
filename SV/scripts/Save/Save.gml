@@ -12,5 +12,4 @@ function Save() {
 
 function Load() {
 	saveFile = file_text_open_write("Save")
-	
 }

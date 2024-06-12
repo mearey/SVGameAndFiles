@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+with (PauseButtonObj) {
+	instance_destroy(self)	
+}
 
-instance_destroy(SettingsButton)
-instance_destroy(SaveButton)
+with (SaveButton) {
+	instance_destroy(self)	
+}

@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale = width
-handle.max_ = x + width - 64
+handle.max_ = x + width - 180
 
 if firstFrame {
-	handle.x = (val*(width-64))/100+x
+	handle.x = (val*(width))/156+x
 	firstFrame = false
 }
 

@@ -5,9 +5,8 @@ max_ = 100
 val = 0
 width = 400
 
-handle = instance_create_depth(x,y,-2,SliderHandleObj)
-handle.min_ = x
-handle.max_ = x + width - 64
+handle = instance_create_depth(x-400,y+45,-2,SliderHandleObj)
+handle.min_ = x + 60
 
 id_ = pointer_null
 
